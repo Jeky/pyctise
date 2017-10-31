@@ -5,6 +5,7 @@ import math
 
 SPACE = ' '
 
+
 def print_diamond(size: int, fill: bool, char_to_use: str):
     """Print out a diamond.
     Parameters: 
@@ -16,19 +17,23 @@ def print_diamond(size: int, fill: bool, char_to_use: str):
         print('Size should be an odd number')
         return
 
-    origin_point = ((size - 1) / 2, (size - 1) / 2)
+    r = int((size - 1) / 2)
+    origin_x = r
+    origin_y = r
 
     for i in range(size):
         for j in range(size):
-            x = j - origin_point[1]
-            y = i - origin_point[0]
-            
-            if math.ceil((i + j) ** 0.5) == (size - 1) / 2:
+            x = j - origin_x
+            y = i - origin_y
+            if math.fabs(x) + math.fabs(y) == r:            # print border
                 print(char_to_use, end='')
-            else:
+            elif math.fabs(x) + math.fabs(y) < r and fill:  # fill in diamond
+                print(char_to_use, end='')
+            else:                                           # empty space
                 print(SPACE, end='')
-        print('')
+        # print a new line
+        print()
 
 
 if __name__ == '__main__':
-    print_diamond(5, True, '*')
+    print_diamond(21, True, '*')
