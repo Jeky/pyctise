@@ -15,9 +15,9 @@ def bubble_sort(lst: list) -> None:
 
 
 if __name__ == '__main__':
-    lst = gen_list(10)
-    print(lst)
+    lst = gen_list(20)
+    print('Generate List:', lst)
     shuffle(lst)
-    print(lst)
+    print('Shuffled List:', lst)
     bubble_sort(lst)
-    print(lst)
+    print('Sorted List:  ', lst)
