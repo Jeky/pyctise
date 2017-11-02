@@ -3,6 +3,8 @@ This is a project including some tiny python files.
 
 ## List
 
+* Day 5: [is_prime.py](is_prime.py)
+
 * Day 4: [count_words.py](count_words.py)
 
 * Day 3: [bubble_sort.py](bubble_sort.py)
