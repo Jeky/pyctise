@@ -36,6 +36,8 @@ python bubble_sort.py
 
 ## List
 
+* Day 7: [insertion_sort.py](insertion_sort.py)
+
 * Day 6: [is_prime.py](is_prime.py)
 
 * Day 5: [group_by.py](group_by.py)
