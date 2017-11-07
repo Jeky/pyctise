@@ -36,6 +36,8 @@ python bubble_sort.py
 
 ## List
 
+* Day 9: [n_gram.py](n_gram.py)
+
 * Day 8: [flatten_dict.py](flatten_dict.py)
 
 * Day 7: [insertion_sort.py](insertion_sort.py)
