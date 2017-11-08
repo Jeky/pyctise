@@ -38,4 +38,4 @@ if __name__ == '__main__':
         computed_pi = compute_pi(iteration_count)
         print('Computing PI with iteration =', iteration_count)
         print('PI =', computed_pi)
-        print('Accuracy =', math.fabs(computed_pi - math.pi) / math.pi)
+        print('Error Rate = {:.5}%'.format(math.fabs(computed_pi - math.pi) / math.pi))
