@@ -1,7 +1,7 @@
 # Pyctise
 This is a project including some tiny python files.
 
-## How to run
+## How to setup this project
 
 1. Install git on your machine. If you are using Windows, you can install **GitBash** which provides not only git feature, but a bash shell as well. If you are using Mac or Linux, please just install git from you terminal.
 
@@ -33,8 +33,24 @@ cd pyctices
 python bubble_sort.py
 ```
 
+## How to update code
+
+1. Using `cd` change directory to your cloned project.
+
+```Bash
+cd pyctices
+```
+
+2. Get the latest code:
+
+```Bash
+git pull
+```
+
 
 ## List
+
+* Day 10: [compute_pi.py](compute_pi.py)
 
 * Day 9: [n_gram.py](n_gram.py)
 
