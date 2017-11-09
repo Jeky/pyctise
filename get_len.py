@@ -1,5 +1,5 @@
 #
-# len() can be used to get the length of a list. Now we are trying to write a recurrsive len() function to get length
+# len() can be used to get the length of a list. Now we are trying to write a recursive function to get length
 #
 
 def cdr(lst: list) -> list:
@@ -10,7 +10,7 @@ def cdr(lst: list) -> list:
 
 
 def list_len(lst: list) -> int:
-    """ Get the length of list using recurrsion.
+    """ Get the length of list using recursion.
     """
     if lst:
         return 1 + list_len(cdr(lst))
