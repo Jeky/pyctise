@@ -50,6 +50,10 @@ git pull
 
 ## List
 
+* Day 13: [has_member.py](has_member.py)
+
+* Day 12: [reverse.py](reverse.py)
+
 * Day 11: [get_len.py](get_len.py)
 
 * Day 10: [compute_pi.py](compute_pi.py)
