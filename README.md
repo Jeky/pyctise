@@ -50,28 +50,38 @@ git pull
 
 ## List
 
-* Day 13: [has_member.py](has_member.py)
+* 2017-11-17: [list_filter.py](list_filter.py)
 
-* Day 12: [reverse.py](reverse.py)
+* 2017-11-16: [list_reduce.py](list_reduce.py)
 
-* Day 11: [get_len.py](get_len.py)
+* 2017-11-15: [list_map.py](list_map.py)
 
-* Day 10: [compute_pi.py](compute_pi.py)
+* 2017-11-14: [func_loop.py](func_loop.py)
 
-* Day 9: [n_gram.py](n_gram.py)
+* 2017-11-13: [func_dict.py](func_dict.py)
 
-* Day 8: [flatten_dict.py](flatten_dict.py)
+* 2017-11-12: [has_member.py](has_member.py)
 
-* Day 7: [insertion_sort.py](insertion_sort.py)
+* 2017-11-11: [reverse.py](reverse.py)
 
-* Day 6: [is_prime.py](is_prime.py)
+* 2017-11-10: [get_len.py](get_len.py)
 
-* Day 5: [group_by.py](group_by.py)
+* 2017-11-09: [compute_pi.py](compute_pi.py)
 
-* Day 4: [count_words.py](count_words.py)
+* 2017-11-08: [n_gram.py](n_gram.py)
 
-* Day 3: [bubble_sort.py](bubble_sort.py)
+* 2017-11-07: [flatten_dict.py](flatten_dict.py)
 
-* Day 2: [shuffle.py](shuffle.py)
+* 2017-11-06: [insertion_sort.py](insertion_sort.py)
 
-* Day 1: [print_diamond.py](print_diamond.py)
+* 2017-11-05: [is_prime.py](is_prime.py)
+
+* 2017-11-04: [group_by.py](group_by.py)
+
+* 2017-11-03: [count_words.py](count_words.py)
+
+* 2017-11-02: [bubble_sort.py](bubble_sort.py)
+
+* 2017-11-01: [shuffle.py](shuffle.py)
+
+* 2017-10-31: [print_diamond.py](print_diamond.py)
