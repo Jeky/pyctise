@@ -50,6 +50,8 @@ git pull
 
 ## List
 
+* Day 11: [get_len.py](get_len.py)
+
 * Day 10: [compute_pi.py](compute_pi.py)
 
 * Day 9: [n_gram.py](n_gram.py)
