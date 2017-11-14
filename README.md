@@ -23,7 +23,7 @@ This means you have successfully installed everything.
 4. Now just clone this repo: 
 
 ```Bash
-git clone https://github.com/Jeky/pyctise.git
+git clone git@github.com:Jeky/pyctise.git
 ```
 
 5. Everything is done. Now you can go to the cloned directory and run some code there:
@@ -49,6 +49,8 @@ git pull
 
 
 ## List
+
+* 2017-11-18: [graph_dict.py](graph_dict.py)
 
 * 2017-11-17: [list_filter.py](list_filter.py)
 
