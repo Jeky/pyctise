@@ -50,6 +50,8 @@ git pull
 
 ## List
 
+* 2017-11-19: [page_rank.py](page_rank.py)
+
 * 2017-11-18: [graph_dict.py](graph_dict.py)
 
 * 2017-11-17: [list_filter.py](list_filter.py)
