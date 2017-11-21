@@ -50,6 +50,8 @@ git pull
 
 ## List
 
+* 2017-11-21: [parse_csv.py](parse_csv.py)
+
 * 2017-11-20: [invert_graph.py](invert_graph.py)
 
 * 2017-11-19: [page_rank.py](page_rank.py)
