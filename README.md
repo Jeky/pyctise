@@ -50,6 +50,8 @@ git pull
 
 ## List
 
+* 2017-11-22: [graph_read.py](graph_read.py)
+
 * 2017-11-21: [parse_csv.py](parse_csv.py)
 
 * 2017-11-20: [invert_graph.py](invert_graph.py)
