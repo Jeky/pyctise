@@ -1,12 +1,12 @@
 #
 # Test if there is a cycle in the graph
 #
-from typing import Dict, List
+from typing import Dict, Set
 from pprint import pprint
 import graph_dict
 
 
-def has_cycle(graph: Dict[str, List[str]]) -> bool:
+def has_cycle(graph: Dict[str, Set[str]]) -> bool:
     """check if there is a cycle in the graph
     """
     if len(graph) == 0:

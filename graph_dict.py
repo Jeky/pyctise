@@ -2,22 +2,22 @@
 # Graph structure can be easily represented by a dict. 
 # We will show how to use dict to store a graph and a DFS (Depth First Search) algorithm
 #
-from typing import Dict, List
+from typing import Dict, Set
 
-def add_node(graph: Dict[str, List[str]], node: str):
+def add_node(graph: Dict[str, Set[str]], node: str):
     """Add a new node to a graph"""
     if node not in graph:
         graph[node] = set()
 
 
-def link(graph: Dict[str, List[str]], from_node: str, to_node: str):
+def link(graph: Dict[str, Set[str]], from_node: str, to_node: str):
     """Link two nodes in graph"""
     add_node(graph, from_node)
     add_node(graph, to_node)
     graph[from_node].add(to_node)
 
 
-def dfs(graph: Dict[str, List[str]], start_node: str):
+def dfs(graph: Dict[str, Set[str]], start_node: str):
     """Travel on the graph using DFS algorithm"""
     if start_node not in graph:
         return
