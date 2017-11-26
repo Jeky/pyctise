@@ -6,7 +6,7 @@ from pprint import pprint
 import graph_dict
 
 
-def find_path(graph: Dict[str, Set[str]], start: str, end: str) -> bool:
+def find_path(graph: Dict[str, Set[str]], start: str, end: str) -> List[str]:
     """ Find the shortest path between two nodes in the graph. 
         If these two nodes are not connected, return None
     """
