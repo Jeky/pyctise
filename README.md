@@ -50,6 +50,8 @@ git pull
 
 ## List
 
+* 2017-11-27: [permutation.py](permutation.py)
+
 * 2017-11-26: [graph_to_adj_matrix.py](graph_to_adj_matrix.py)
 
 * 2017-11-25: [graph_connected_components.py](graph_connected_components.py)
