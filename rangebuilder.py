@@ -32,7 +32,7 @@ class RangeBuilder(object):
         self.reversed = not self.reversed
         return self
 
-    def build(self):
+    def __iter__(self):
         if not self.reversed:
             start = self.start
             end = self.end
@@ -46,10 +46,10 @@ class RangeBuilder(object):
             if self.include_last:
                 end -= 1
 
-        return range(start, end, step)
+        return iter(range(start, end, step))
 
 
 
 if __name__ == '__main__':
-    for i in RangeBuilder().from_(0).to(6).withLast().reverse().build():
+    for i in RangeBuilder().from_(0).to(6).withLast().reverse():
         print(i)
