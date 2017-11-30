@@ -32,7 +32,7 @@ class RangeBuilder(object):
         self.reversed = not self.reversed
         return self
 
-    def __iter__(self):
+    def __iter__(self): # this magic method is invoked in: for ... in ...
         if not self.reversed:
             start = self.start
             end = self.end
