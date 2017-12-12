@@ -50,6 +50,14 @@ git pull
 
 ## List
 
+* 2017-12-12: [dynamic_instance.py](dynamic_instance.py)
+
+* 2017-12-11: [add_method.py](add_method.py)
+
+* 2017-12-10: [tuple_object.py](tuple_object.py)
+
+* 2017-12-09: [args.py](args.py)
+
 * 2017-12-08: [shape.py](shape.py)
 
 * 2017-12-07: [tree_ast.py](tree_ast.py)
