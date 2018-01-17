@@ -3,3 +3,4 @@ __pycache__
 desktop.ini
 .idea
 *.iml
+*.pyc
