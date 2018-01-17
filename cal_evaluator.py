@@ -27,6 +27,9 @@ class ExpNode(object):
     def __str__(self):
         return '({} {} {})'.format(self.left, self.name, self.right)
 
+    def __repr__(self):
+        return str(self)
+
 
 class AddExpNode(ExpNode):
 
